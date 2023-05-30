@@ -1,0 +1,10 @@
+Passed MSV filter:                       374  (1); expected 374.0 (1)
+Passed bias filter:                      374  (1); expected 374.0 (1)
+Passed Vit filter:                       374  (1); expected 374.0 (1)
+Passed Fwd filter:                       374  (1); expected 374.0 (1)
+Initial search space (Z):                374  [actual number of targets]
+Domain search space  (domZ):             370  [number of targets reported over threshold]
+# CPU time: 0.06u 0.01s 00:00:00.06 Elapsed: 00:00:00.09
+# Mc/sec: 42.81
+//
+[ok]

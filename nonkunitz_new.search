@@ -1,0 +1,41 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ali_3d_clean.hmm
+# target sequence database:        negative.fasta
+# output directed to file:         nonkunitz_new.search
+# show alignments in output:       no
+# sequence reporting threshold:    E-value <= 1e-08
+# Max sensitivity mode:            on [all heuristic filters off]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       ali_3d_clean  [M=57]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence:
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (57 nodes)
+Target sequences:                     569126  (205790816 residues searched)
+Passed MSV filter:                    569126  (1); expected 569126.0 (1)
+Passed bias filter:                   569126  (1); expected 569126.0 (1)
+Passed Vit filter:                    569126  (1); expected 569126.0 (1)
+Passed Fwd filter:                    569126  (1); expected 569126.0 (1)
+Initial search space (Z):             569126  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 92.25u 0.13s 00:01:32.38 Elapsed: 00:00:45.65
+# Mc/sec: 256.90
+//
+[ok]

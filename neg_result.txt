@@ -1,0 +1,10 @@
+Passed MSV filter:                    569126  (1); expected 569126.0 (1)
+Passed bias filter:                   569126  (1); expected 569126.0 (1)
+Passed Vit filter:                    569126  (1); expected 569126.0 (1)
+Passed Fwd filter:                    569126  (1); expected 569126.0 (1)
+Initial search space (Z):             569126  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 92.25u 0.13s 00:01:32.38 Elapsed: 00:00:45.65
+# Mc/sec: 256.90
+//
+[ok]
